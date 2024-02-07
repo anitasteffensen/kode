@@ -1,11 +1,34 @@
-
-
+@font-face {
+    font-family: roboto;
+    src: url("Roboto-Regular.ttf");
+}
 *{
     margin:0;
     box-sizing: border-box;
   
 }
-
+main{
+    font-family: roboto;
+    
+}
 header{
     background-color: ;
+}
+
+#billede{
+    background-color: #779882;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#faellesskab{
+    background-color:#F3F4EF ;
+
+}
+
+#sammen{
+    background-color: white;
 }
