@@ -8,7 +8,15 @@
 </head>
 <body>
 <header>
-<div class="hamburger"></div>
+    <nav>
+        <input id="toggle" type="checkbox"></input>
+        <label for="toggle" class="hamburger">
+          <div class="top-bun"></div>
+          <div class="meat"></div>
+          <div class="bottom-bun"></div>
+        </label>
+    
+
 </header>
 <main>
 <section id="billede">
@@ -31,7 +39,7 @@
             <input type="text" placeholder="Navn" name="navn">
             <input type="text" placeholder="Brugernavn" name="bruger">
             <input type="text" placeholder="E-mail" name="mail">
-            <input type="submit" name="sumbit" value="Tilmeld">
+            <input class="tilmeld" type="submit" name="sumbit" value="Tilmeld">
         </div>
         </div>
     </div>
@@ -47,7 +55,11 @@
 </main>
 
 <footer>
-<div class="grid"></div>
+<div class="grid">
+    <div class="item">Information</div>
+    <div class="item">SoMe</div>
+    <div class="item">Søg</div>
+</div>
 </footer>
 </body>
 </html>
