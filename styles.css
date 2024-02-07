@@ -31,4 +31,24 @@ header{
 
 #sammen{
     background-color: white;
+    max-width: 80vw;
+    max-width: 80vw;
+    margin-top:2rem;
+    text-align: left;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.button{
+    background-color: #779882;
+    color: white;
+   
+}
+
+
+footer{
+    background-color: #425348;
+    height:2.5rem;
 }
